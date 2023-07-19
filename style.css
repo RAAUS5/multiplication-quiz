@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: yellow;
+    height: 100vh;
+    width: auto;
+}
+.form{
+    background-color: white;
+    padding: 30px;
+    box-shadow: 3px 4px 8px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    width: 400px;
+}
+.totalScore{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+h4{
+    font-size: 20px;
+}
+.wrong{
+    color: red;
+}
+.score{
+    color: green;
+}
+.Question{
+    margin-bottom: 30px;
+}
+.input{
+    display: block;
+    width: 100%;
+    font-size: 25px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+    border: solid 4px rgb(61, 149, 217);
+    margin-bottom: 20px;
+}
+.input::placeholder{
+    color: lightgray;
+    font-family: cursive;
+}
+.btn{
+    width: 100%;
+    padding: 10px;
+    font-size: 25px;
+    font-family: cursive;
+    background-color: green;
+    color: wheat;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    cursor: pointer;
+
+}
+.btn:hover{
+    filter: brightness(0.9);
+}
